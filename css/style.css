@@ -83,12 +83,18 @@
 	color: blue;
 }
 
+#main-left, #main-right {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
 #main-left {
-	width: 65%;
+	width: 60%;
 }
 
 #main-right {
-	width: 30%;
+	width: 35%;
 }
 
 #video-title {
@@ -102,28 +108,88 @@
 
 #comment-section {
 	font-size: 14px;
+	margin-top: 25px;
 }
 
 #comment-title {
 	font-size: 24px;
 }
 
+.user {
+	margin-top: 10px;
+	margin-left: 8px;
+	color: lightskyblue;
+}
+
+.user-comments {
+	margin-top: 10px;
+	color: #999;
+}
+
+#main-right {
+
+}
+
+#profile {
+	border: 2px solid #666;
+	width: 95%;
+	margin-top: 26px;
+	height: 232px;
+}
+
+#top-profile {
+	width:88%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#top-profile-left, #top-profile-middle, #top-profile-right {
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: top;
+}
 
 
+#top-profile-left {
+	width: 20%;
+}
 
+#top-profile-middle {
+	width: 50%;
+}
 
+#profile-name {
+	color: #06abd8;
+	font-size: 16px;
+}
 
+#profile-name-bio {
+	font-size: 8px;
+}
 
+#top-profile-right {
+	width: 25%;
+}
 
+#top-profile-right input {
+	margin-top: 15px;
+	margin-right: -10px;
+	width: 100%;
+	padding: 10px 0px;
+	border-radius: 3%;
+	border: 1px solid #bbb;
+	background-color: #eee;
+	font-weight: bold;
+	font-size: 12px;
+	color: #444;
+}
 
-
-
-
-
-
-
-
-
+#bottom-profile {
+	width:88%;
+	margin: auto;
+	margin-top: 15px;
+	font-size: 12px;
+}
 
 
 
