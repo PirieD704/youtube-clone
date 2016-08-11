@@ -6,6 +6,8 @@
 	max-width: 1100px;
 	margin: auto;
 	font-family: helvetica;
+	border-bottom: 2px solid black;
+
 }
 
 #header-left, #header-middle, #header-right {
@@ -191,9 +193,22 @@
 	font-size: 12px;
 }
 
+@media screen and (max-width: 768px) {
+	.more-video-item {
+		width: 48%;
+	}
+}
 
+@media screen and (max-width: 500px) {
+	.more-video-item {
+		width: 90%;
+		margin: auto;
+	}
+}
 
-
+.more-video-item {
+	border: 1px solid black;
+}
 
 
 
